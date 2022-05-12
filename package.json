@@ -1,8 +1,22 @@
 {
   "name": "server1",
   "version": "1.0.0",
-  "description": "blog server",
+  "description": "koaServer",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lstudys/koaServer1.git"
+  },
   "author": "Lstudys",
-  "license": "MIT"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lstudys/koaServer1/issues"
+  },
+  "homepage": "https://github.com/Lstudys/koaServer1#readme",
+  "dependencies": {
+    "koa": "^2.13.4"
+  }
 }
